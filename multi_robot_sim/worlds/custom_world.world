@@ -1,0 +1,30 @@
+
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <model name="goal_marker">
+      <static>true</static>
+      <link name="goal_link">
+        <visual name="goal_visual">
+          <geometry>
+            <cylinder>
+              <radius>0.2</radius>
+              <length>0.1</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+        <pose>5 5 0.05 0 0 0</pose>
+      </link>
+    </model>
+  </world>
+</sdf>

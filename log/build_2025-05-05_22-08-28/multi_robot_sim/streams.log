@@ -1,0 +1,35 @@
+[0.016s] Invoking command in '/home/ubuntu/multi_robot_sim/build/multi_robot_sim': /usr/bin/cmake /home/ubuntu/multi_robot_sim/multi_robot_sim -DCMAKE_INSTALL_PREFIX=/home/ubuntu/multi_robot_sim/install/multi_robot_sim
+[2.346s] -- The C compiler identification is GNU 9.4.0
+[3.937s] -- The CXX compiler identification is GNU 9.4.0
+[3.944s] -- Check for working C compiler: /usr/bin/cc
+[4.073s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.074s] -- Detecting C compiler ABI info
+[4.221s] -- Detecting C compiler ABI info - done
+[4.238s] -- Detecting C compile features
+[4.239s] -- Detecting C compile features - done
+[4.243s] -- Check for working CXX compiler: /usr/bin/c++
+[4.365s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.367s] -- Detecting CXX compiler ABI info
+[4.487s] -- Detecting CXX compiler ABI info - done
+[4.505s] -- Detecting CXX compile features
+[4.506s] -- Detecting CXX compile features - done
+[4.585s] CMake Error at CMakeLists.txt:3 (find_package):
+[4.586s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[4.586s]   has asked CMake to find a package configuration file provided by
+[4.586s]   "ament_cmake", but CMake did not find one.
+[4.586s] 
+[4.587s]   Could not find a package configuration file provided by "ament_cmake" with
+[4.587s]   any of the following names:
+[4.587s] 
+[4.587s]     ament_cmakeConfig.cmake
+[4.587s]     ament_cmake-config.cmake
+[4.588s] 
+[4.588s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[4.588s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[4.588s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[4.588s]   has been installed.
+[4.589s] 
+[4.589s] 
+[4.589s] -- Configuring incomplete, errors occurred!
+[4.589s] See also "/home/ubuntu/multi_robot_sim/build/multi_robot_sim/CMakeFiles/CMakeOutput.log".
+[4.592s] Invoked command in '/home/ubuntu/multi_robot_sim/build/multi_robot_sim' returned '1': /usr/bin/cmake /home/ubuntu/multi_robot_sim/multi_robot_sim -DCMAKE_INSTALL_PREFIX=/home/ubuntu/multi_robot_sim/install/multi_robot_sim
